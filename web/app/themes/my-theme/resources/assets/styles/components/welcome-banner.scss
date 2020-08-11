@@ -1,0 +1,41 @@
+.welcome-banner {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  margin: 10px 0;
+  border-radius: 21px;
+  overflow: hidden;
+  padding: 100px 30px;
+  position: relative;
+}
+
+.welcome-banner .bg {
+  filter: brightness(0.8);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.welcome-banner .inner h2 {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .welcome-banner {
+    padding: 100px 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .welcome-banner .inner {
+    width: 50%;
+  }
+}

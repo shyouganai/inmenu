@@ -1,0 +1,36 @@
+.btn {
+  border-radius: 21px;
+  border-width: 3px;
+  font-size: 14px;
+  padding: 7px 15px;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.btn-outline-primary {
+  border-color: #ff8e3b !important;
+  color: black;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background: white !important;
+    border-color: #ff8e3b !important;
+    color: black !important;
+  }
+}
+
+.btn-outline-secondary {
+  border-color: #f2f2f2 !important;
+  color: black !important;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background: white !important;
+    border-color: #f2f2f2 !important;
+    color: black !important;
+  }
+}

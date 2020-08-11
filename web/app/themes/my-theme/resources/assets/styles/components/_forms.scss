@@ -1,0 +1,35 @@
+/** Search form */
+.search-form {
+  //@extend .form-inline;
+  display: flex;
+  border-radius: 21px;
+  padding: 0 17px;
+  height: 42px;
+  background: white;
+}
+
+.search-form img {
+  max-width: 18px;
+  margin-right: 10px;
+}
+
+.search-form input {
+  flex: 1;
+  border: none;
+  background: transparent;
+}
+
+//.search-form label {
+//  @extend .form-group;
+//
+//  font-weight: normal;
+//}
+//
+//.search-form .search-field {
+//  @extend .form-control;
+//}
+//
+//.search-form .search-submit {
+//  @extend .btn;
+//  @extend .btn-secondary;
+//}
